@@ -197,113 +197,113 @@ int main()
      soma2 = valor1_c2 + valor2_c2;
 
      //Resultado final
-     printf("------------ Resultado Final ----------\n");
-     printf("%s (Carta 1) e %s (Carta 2)\n", paises, paises2);
+     printf("\n------------ Resultado Final ----------\n\n");
+     printf("%s (Carta 1) e %s (Carta 2)\n\n", paises, paises2);
      printf("Atributos escolhidos: \n");
      printf("- Primeiro atributo:\n");
      if (atributo1 == 1)//Mostra o atributo e valor 
      {
            printf("Carta 1:\n");
-           printf("População: %.2f\n", valor1_c1);
+           printf(". População: %.2f\n", valor1_c1);
            printf("Carta 2:\n");
-           printf("População: %.2f\n", valor1_c2);
+           printf(". População: %.2f\n", valor1_c2);
      } else if (atributo1 == 2) 
      {
           printf("Carta 1:\n");
-          printf("Área: %.2f\n", valor1_c1);
+          printf(". Área: %.2f\n", valor1_c1);
           printf("Carta 2:\n");
-          printf("Área: %.2f\n", valor1_c2);     
+          printf(". Área: %.2f\n", valor1_c2);     
      }  else if (atributo1 == 3) 
       {
            printf("Carta 1:\n");
-           printf("PIB: %.2f\n", valor1_c1);
+           printf(". PIB: %.2f\n", valor1_c1);
            printf("Carta 2:\n");
-           printf("PIB: %.2f\n", valor1_c2);     
+           printf(". PIB: %.2f\n", valor1_c2);     
       }  else if (atributo1 == 4) 
       {
            printf("Carta 1:\n");
-           printf("Pontos turísticos: %.2f\n", valor1_c1);
+           printf(". Pontos turísticos: %.2f\n", valor1_c1);
            printf("Carta 2:\n");
-           printf("Pontos turísticos: %.2f\n", valor1_c2);     
+           printf(". Pontos turísticos: %.2f\n", valor1_c2);     
       }  else if (atributo1 == 5) 
       {
            printf("Carta 1:\n");
-           printf("Densidade demográfica: %.2f\n", valor1_c1);
+           printf(". Densidade demográfica: %.2f\n", valor1_c1);
            printf("Carta 2:\n");
-           printf("Densidade demográfica: %.2f\n", valor1_c2);     
+           printf(". Densidade demográfica: %.2f\n", valor1_c2);     
       }  else if (atributo1 == 6)
       {
            printf("Carta 1:\n");
-           printf("PIB per Capita: %.2f\n", valor1_c1);
+           printf(". PIB per Capita: %.2f\n", valor1_c1);
            printf("Carta 2:\n");
-           printf("PIB per Capita: %.2f\n", valor1_c2);     
+           printf(". PIB per Capita: %.2f\n", valor1_c2);     
       } else 
       {
           printf("Carta 1:\n");
-          printf("Super Poder: %.2f\n", valor1_c1);
+          printf(". Super Poder: %.2f\n", valor1_c1);
           printf("Carta 2:\n");
-          printf("Super Poder: %.2f\n", valor1_c2); 
+          printf(". Super Poder: %.2f\n", valor1_c2); 
       }
  
-      printf("- Segundo atributo:\n");
+      printf("\n- Segundo atributo:\n");
       if (atributo2 == 1)
      {
            printf("Carta 1:\n");
-           printf("População: %.2f\n", valor2_c1);
+           printf(". População: %.2f\n", valor2_c1);
            printf("Carta 2:\n");
-           printf("População: %.2f\n", valor2_c2);
+           printf(". População: %.2f\n", valor2_c2);
      } else if (atributo2 == 2) 
      {
       printf("Carta 1:\n");
-      printf("Área: %.2f\n", valor2_c1);
+      printf(". Área: %.2f\n", valor2_c1);
       printf("Carta 2:\n");
-      printf("Área: %.2f\n", valor2_c2);     
+      printf(". Área: %.2f\n", valor2_c2);     
      }  else if (atributo2 == 3) 
       {
            printf("Carta 1:\n");
-           printf("PIB: %.2f\n", valor2_c1);
+           printf(". PIB: %.2f\n", valor2_c1);
            printf("Carta 2:\n");
-           printf("PIB: %.2f\n", valor2_c2);     
+           printf(". PIB: %.2f\n", valor2_c2);     
       }  else if (atributo2 == 4) 
       {
            printf("Carta 1:\n");
-           printf("Pontos turísticos: %.2f\n", valor2_c1);
+           printf(". Pontos turísticos: %.2f\n", valor2_c1);
            printf("Carta 2:\n");
-           printf("Pontos turísticos: %.2f\n", valor2_c2);     
+           printf(". Pontos turísticos: %.2f\n", valor2_c2);     
       }  else if (atributo2 == 5) 
       {
            printf("Carta 1:\n");
-           printf("Densidade demográfica: %.2f\n", valor2_c1);
+           printf(". Densidade demográfica: %.2f\n", valor2_c1);
            printf("Carta 2:\n");
-           printf("Densidade demográfica: %.2f\n", valor2_c2);     
+           printf(". Densidade demográfica: %.2f\n", valor2_c2);     
       }  else if (atributo2 == 6)
       {
            printf("Carta 1:\n");
-           printf("PIB per Capita: %.2f\n", valor2_c1);
+           printf(". PIB per Capita: %.2f\n", valor2_c1);
            printf("Carta 2:\n");
-           printf("PIB per Capita: %.2f\n", valor2_c2);     
+           printf(". PIB per Capita: %.2f\n", valor2_c2);     
       } else 
       {
           printf("Carta 1:\n");
-          printf("Super Poder: %.2f\n", valor2_c1);
+          printf(". Super Poder: %.2f\n", valor2_c1);
           printf("Carta 2:\n");
-          printf("Super Poder: %.2f\n", valor2_c2); 
+          printf(". Super Poder: %.2f\n", valor2_c2); 
       }
      
-          printf("Soma dos atributos:\n");
+          printf("\nSoma dos atributos:\n");
           printf("- Carta 1: %.2f\n", soma1);
-          printf("- Carta 2: %.2f:\n", soma2);
+          printf("- Carta 2: %.2f:\n\n", soma2);
       
      //Mostra a carta vencedora
      if (soma1 > soma2) 
      {
-           printf("\n*** Carta 1 (%s) venceu! ***", paises);
+           printf("*** Carta 1 (%s) venceu! ***\n\n", paises);
      } else if (soma1 == soma2)
      {
-           printf("\n*** EMPATE ***!");  
+           printf("*** EMPATE ***!\n\n");  
      } else 
      {
-           printf("\n*** Carta 2 (%s) venceu! \n", paises2);
+           printf("*** Carta 2 (%s) venceu! \n\n", paises2);
      }
    }
      return 0;
